@@ -1,0 +1,18 @@
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 90vh;
+    background-image: url(../../../assets/images/homescreen.jpeg);
+    background-size: cover;
+}
+.home-card{
+    max-width: 60vw;
+    max-height: fit-content;
+}
+
+img{
+    width: 25vw;
+    height:100%;
+}
