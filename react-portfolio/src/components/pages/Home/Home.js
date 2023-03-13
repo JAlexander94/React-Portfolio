@@ -12,10 +12,11 @@ const Home = () => (
           <img src={logo} alt="..."/>
         </div>
         <div class="col-md-6">
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <div class="card-body home-text">
+            <h3 class="card-title">Joshua Alexander</h3>
+            <h5 class="card-title"> Portfolio Site</h5>
+            <br></br>
+            <p class="card-text">With over half a decades experince in the finanaical industry working with family offices i understand the benefit a well-designed site brings to a fund</p>
           </div>
         </div>
       </div>
