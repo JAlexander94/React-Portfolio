@@ -1,16 +1,53 @@
 import React from "react";
+import projectsdata from "./projects.json"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./style.css"
 
-const About = () => (
-  <div>
-    <h1>About Page</h1>
-    <p>
-      Nunc pharetra finibus est at efficitur. Praesent sed congue diam. Integer gravida dui mauris,
-      ut interdum nunc egestas sed. Aenean sed mollis diam. Nunc aliquet risus ac finibus porta. Nam
-      quis arcu non lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-      imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus in. Sed rhoncus mollis
-      diam, sit amet facilisis lectus blandit at.
-    </p>
+function NewProjects(props) {
+  return (
+  <div class="col-4">  
+  <div className="card">
+  <div className="img-container">
+    <img alt={props.title} src={props.screenshot} />
+  </div>
+  <div className="content">
+    <ul>
+      <li>
+        <strong>Title:</strong> {props.title}
+      </li>
+      <li>
+        <a href={props.weblink}>Website Link</a> 
+      </li>
+      <li>
+        <a href={props.gitlink}>Repository Link</a> 
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+  )
+}
+
+function Projects() {
+  return (
+    <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1>Projects Page</h1>
+      </div>
+    </div>
+    <div class="row">
+    {projectsdata.map((project) => (
+      <NewProjects
+      title={project.title}
+      screenshot={project.screenshot}
+      weblink={project.weblink}
+      gitlink={project.gitlink}
+      />
+    ))}
+    </div>
   </div>
 );
+    }
 
-export default About;
+export default Projects;

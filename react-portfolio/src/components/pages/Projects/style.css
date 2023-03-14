@@ -1,0 +1,12 @@
+.card{
+    min-height: 30vh !important;
+    margin-bottom: 5vh;
+    padding: 1vh;
+}
+.row{
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+ul{
+    list-style-type: none !important;
+}

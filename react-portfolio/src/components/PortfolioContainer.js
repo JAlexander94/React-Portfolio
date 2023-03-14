@@ -5,6 +5,7 @@ import Projects from "./pages/Projects/Projects";
 import Contact from "./pages/Contact/Contact";
 
 function Portfolio() {
+
   const [currentPage, setCurrentPage] = useState("Home");
 
   const handlePageChange = (page) => {
@@ -15,7 +16,7 @@ function Portfolio() {
     if (currentPage === "Home") {
       return <Home />;
     } else if (currentPage === "Projects") {
-      return <Projects />;
+      return <Projects/>
     } else {
       return <Contact />;
     }
