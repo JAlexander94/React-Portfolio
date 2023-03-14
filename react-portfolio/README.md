@@ -23,8 +23,8 @@ https://jalexander94.github.io/React-Portfolio/#home
 
 Click through to the projects tab to see teh projects that i have completed along with their website links and github repository links
 
-![screenshot of the homepage]()
-![screenshot of the projects page]()
+![screenshot of the homepage](https://github.com/JAlexander94/React-Portfolio/blob/main/react-portfolio/src/assets/images/Screenshot%202023-03-14%20at%2023.04.05.png)
+![screenshot of the projects page](https://github.com/JAlexander94/React-Portfolio/blob/main/react-portfolio/src/assets/images/Screenshot%202023-03-14%20at%2023.04.17.png)
 
 
 ## License
